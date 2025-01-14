@@ -1,6 +1,6 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
+  "name": "course-helper-project",
+  "version": "0.0.0",
   "main": "backend.js",
   "type": "module",
   "scripts": {
