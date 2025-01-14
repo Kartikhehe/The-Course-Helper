@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Ensure consistent font styling */
+    background-color: #f4f4f4; /* Optional, improves visual appearance */
+  }
+  
+  html, body, #root {
+    min-height: 100%;
+    width: 100%;
+    overflow: visible;
+  }
+  
+  .centerAlign {
+    text-align: center;
+  }
+
+  .Loading {
+    display: flex; /* Use flex instead of grid for simplicity */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full viewport height */
+    width: 100%;
+    overflow: auto; /* Allow scrolling if needed */
+  }
+  
